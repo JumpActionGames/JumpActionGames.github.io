@@ -1,1 +1,4 @@
-# JumpActionGames.github.io
+# JUMP ACTION GAMES
+## JumpActionGamesのホームページです
+## URL
+https://JumpActionGames.github.io
