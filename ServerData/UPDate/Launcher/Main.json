@@ -5,21 +5,13 @@
     "ver": [
         {
             "vers": "0.0.1",
-            "value": [
-                "apple",
-                "ÇËÇÒÇ≤",
-                150,
-                "ê¬êXåß"
-            ]
+            "vertype": "alpha",
+            "fileurl": "jumpactiongames.github.io/ServerData/UPDate/App/alpha/0.0.1"
         },
         {
             "vers": "0.0.2",
-            "value": [
-                "apple",
-                "ÇËÇÒÇ≤",
-                150,
-                "ê¬êXåß"
-            ]
+            "vertype": "alpha",
+            "fileurl": "jumpactiongames.github.io/ServerData/UPDate/App/alpha/0.0.2"
         }
     ]
 }
