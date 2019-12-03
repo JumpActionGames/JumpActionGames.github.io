@@ -7,14 +7,14 @@
         {
             "vers": "0.0.1",
             "vertype": "alpha",
-            "fileurl": "jumpactiongames.github.io/ServerData/UPDate/App/alpha/yes.zip",
+            "fileurl": "jumpactiongames.github.io/WorldAppData/ServerData/UPDate/App/alpha/yes.zip",
             "readme": "バージョン 0,0,1α!!  ＊このバージョンは処理が不安定になることがあります。",
         "GameType": "Worlds"
         },
         {
             "vers": "0.0.2",
             "vertype": "alpha",
-            "fileurl": "jumpactiongames.github.io/ServerData/UPDate/App/alpha/0.0.2",
+            "fileurl": "jumpactiongames.github.io/WorldAppData/ServerData/UPDate/App/alpha/0.0.2",
             "readme": "バージョン 0,0,2α!!  ＊このバージョンは処理が不安定になることがあります。",
             "GameType": "Worlds"
         }
