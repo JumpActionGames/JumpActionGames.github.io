@@ -1,3 +1,30 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1b2538;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #a9bce2;
+}
+.active {
+	background-color: #da3c41;
+}
 h1 {
   color: #6594e0;
   border-bottom: dashed 2px #6594e0;
@@ -18,15 +45,4 @@ h1 {
 .btn-square-so-pop:active {
   /*押したとき*/
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
-}
-ul {
-　　overflow:hidden;
-　　list-style:none;
-　　margin: 0 auto;
-　　z-index: 20;
-}
- 
-ul li {
-  display: inline-block;
-  padding: 26px 10px 20px 10px;
 }
