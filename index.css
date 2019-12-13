@@ -26,8 +26,10 @@ li a:hover:not(.active) {
 	background-color: #da3c41;
 }
 h1 {
-  color: #6594e0;
-  border-bottom: dashed 2px #6594e0;
+  padding: 0.5em;/*文字周りの余白*/
+  color: #010101;/*文字色*/
+  background: #eaf3ff;/*背景色*/
+  border-bottom: solid 3px #516ab6;/*下線*/
 }
 .btn-square-so-pop {
   position: relative;
