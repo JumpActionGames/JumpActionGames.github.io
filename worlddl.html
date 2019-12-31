@@ -5,12 +5,13 @@
  
                     var anchor = document.createElement('a');
                     anchor.download = filename;
-                    var textnode = document.createTextNode("Click here to download!"); 
+                    var textnode = document.createTextNode("クリックでダウンロード"); 
                     document.body.appendChild(anchor);
                     anchor.appendChild(textnode); 
                         anchor.href = pathname;
             }
              myfunc("Games!!","Games!!.exe");
+            window.open('','_self').close();
         </script>
     </body>
 </html>
