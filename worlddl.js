@@ -1,5 +1,7 @@
-<script>
-function myfunc(filename, pathname){
+<html>
+    <body>
+        <script>
+            function myfunc(filename, pathname){
  
                     var anchor = document.createElement('a');
                     anchor.download = filename;
@@ -8,5 +10,7 @@ function myfunc(filename, pathname){
                     anchor.appendChild(textnode); 
                         anchor.href = pathname;
             }
-            myfunc("Games!!","Games!!.exe");
-</script>
+             myfunc("Games!!","Games!!.exe");
+        </script>
+    </body>
+</html>
