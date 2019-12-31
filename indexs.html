@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>JumpActionGames</title>
+    <link rel="stylesheet" type="text/css" href="indexs.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  </head>
+  <body bgcolor=lightcyan>
+    <div class="topbar">
+      <ul id="nav">
+        <li><a class="active" href="indexs.html">ホーム</a></li>
+        <li><a href="worlds.html">Worlds</a></li>
+      </ul>
+</ul>
+    </div>
+ 
+    <h1>Jump Action Games!!!</h1>
+    <h2 class="Point">シリーズ</h2>
+    <div class="block1">
+      <a href="#" class="btn-square-slant">BUTTON</a>
+    </div>
+    <p class="pagetop"><a href="#wrap">一番上に戻る</a></p>
+    <script>
+      $(document).ready(function() {
+        var pagetop = $('.pagetop');
+          $(window).scroll(function () {
+             if ($(this).scrollTop() > 100) {
+                  pagetop.fadeIn();
+             } else {
+                  pagetop.fadeOut();
+                  }
+             });
+             pagetop.click(function () {
+                 $('body, html').animate({ scrollTop: 0 }, 500);
+                    return false;
+         });
+      });
+      </script>
+  </body>
+</html>

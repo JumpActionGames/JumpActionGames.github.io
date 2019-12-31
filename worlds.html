@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>JumpActionWorlds ダウンロード</title>
+    <link rel="stylesheet" type="text/css" href="worlds.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  </head>
+  <body bgcolor=lightcyan>
+    <div class="topbar">
+      <ul id="nav">
+        <li><a  href="indexs.html">ホーム</a></li>
+        <li><a class="active" href="worlds.html">Worlds</a></li>
+      </ul>
+</ul>
+    </div>
+ 
+    <h1>Jump Action Worlds!</h1>
+    <h2>概要</h2>
+    このゲームは、画面上にいる、キャラクターを動かし、<br>
+    ゴールへ行くというゲームです。
+    <br>
+    <a href="worlddownload.html" class="btn-sticky">ダウンロード</a>
+    <h3>プレイ方法</h3>
+    →で右に移動、←で左に移動。↑でジャンプ
+    
+    <p class="pagetop"><a href="#wrap">一番上に戻る</a></p>
+    <script>
+      $(document).ready(function() {
+        var pagetop = $('.pagetop');
+          $(window).scroll(function () {
+             if ($(this).scrollTop() > 100) {
+                  pagetop.fadeIn();
+             } else {
+                  pagetop.fadeOut();
+                  }
+             });
+             pagetop.click(function () {
+                 $('body, html').animate({ scrollTop: 0 }, 500);
+                    return false;
+         });
+      });
+      </script>
+  </body>
+</html>
